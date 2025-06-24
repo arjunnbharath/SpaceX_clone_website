@@ -22,6 +22,6 @@ A visually stunning and responsive **SpaceX website clone** built using modern w
 
 ---
 
-## 📁 Project Structure
+
 
 
