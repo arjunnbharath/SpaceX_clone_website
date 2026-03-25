@@ -1,0 +1,248 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-left { display: flex; align-items: center; gap: 40px; }
+.logo { height: 25px; cursor: pointer; }
+.main-nav ul { display: flex; list-style: none; gap: 20px; }
+.main-nav a { color: #fff; text-decoration: none; font-size: 13px; font-weight: bold; text-transform: uppercase; transition: color 0.3s ease; }
+.main-nav a:hover { color: #a0a0a0; }
+.nav-right { display: flex; align-items: center; gap: 30px; }
+.shop-link { color: #fff; text-decoration: none; font-size: 13px; font-weight: bold; }
+.hamburger { color: #fff; font-size: 20px; text-decoration: none; }
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-title { font-size: 90px; font-weight: bold; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+.hero-subtitle { font-size: 17px; text-transform: uppercase; letter-spacing: 1px; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+
+/* Overview Section */
+.overview-section {
+    min-height: 100vh;
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.overview-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.stats-column {
+    flex: 1;
+    max-width: 500px;
+}
+
+.stats-column h3 { font-size: 16px; font-weight: normal; margin-bottom: 5px; }
+.stats-column h2 { font-size: 32px; margin-bottom: 30px; letter-spacing: 2px; }
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.stat-label { color: #fff; }
+.stat-value { text-align: right; }
+.stat-sub { color: #888; margin-left: 5px; }
+
+.info-column {
+    flex: 1;
+    max-width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fcfafa;
+    padding-bottom: 20px;
+}
+
+/* Video Section */
+.video-section {
+    padding: 100px 50px;
+    background-color: #000;
+}
+
+.video-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.video-wrapper {
+    flex: 2;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-text {
+    flex: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video-text h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Feature Section */
+.feature-section {
+    width: 100%;
+}
+.feature-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover { background: #fff; color: #000; }
+
+/* Site Footer */
+.site-footer {
+    padding: 60px 40px 20px;
+    background: #000;
+}
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+.footer-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.btn-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+}
+.footer-nav {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-nav li, .footer-nav a {
+    color: #888;
+    font-size: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-nav a:hover { color: #fff; }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100vh;
+        background-color: #000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+    .main-nav.active { display: flex; }
+    .main-nav ul { flex-direction: column; align-items: center; gap: 30px; }
+    .main-nav a { font-size: 18px; }
+    .hamburger { z-index: 101; position: relative; }
+    
+    .navbar { padding: 20px 30px; }
+    .overview-container, .video-container { flex-direction: column; }
+    .video-wrapper { width: 100%; padding-bottom: 56.25%; flex: none; }
+    .video-text { order: -1; text-align: center; }
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 50px; }
+    .hero-subtitle { font-size: 14px; }
+    .overview-section { padding: 50px 20px; background-position: left; }
+    .stats-column, .info-column { max-width: 100%; }
+    .stat-row { flex-direction: row; }
+    .video-section { padding: 50px 20px; }
+    .video-text h2 { font-size: 28px; }
+    .btn-group { flex-direction: column; }
+}

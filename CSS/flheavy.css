@@ -1,0 +1,104 @@
+/* Reset and Base Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+body { background-color: #000; color: #fff; overflow-x: hidden; }
+
+/* Navbar */
+.navbar { position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 30px 50px; z-index: 100; background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+.nav-left { display: flex; align-items: center; gap: 40px; }
+.logo { height: 25px; cursor: pointer; }
+.main-nav ul { display: flex; list-style: none; gap: 20px; }
+.main-nav a { color: #fff; text-decoration: none; font-size: 13px; font-weight: bold; text-transform: uppercase; transition: color 0.3s ease; }
+.main-nav a:hover { color: #a0a0a0; }
+.nav-right { display: flex; align-items: center; gap: 30px; }
+.shop-link { color: #fff; text-decoration: none; font-size: 13px; font-weight: bold; }
+.hamburger { color: #fff; font-size: 20px; text-decoration: none; }
+
+/* Sections Common */
+section { position: relative; width: 100%; }
+.responsive-img { width: 100%; height: auto; display: block; }
+
+/* Hero Section */
+.hero-section { height: 100vh; background-size: cover; background-position: center; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.hero-title { font-size: 90px; font-weight: bold; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+.hero-subtitle { font-size: 17px; text-transform: uppercase; letter-spacing: 1px; text-shadow: 1px 1px 3px rgba(0,0,0,0.5); }
+
+/* About Section */
+.about-section { height: 80vh; display: flex; align-items: center; justify-content: center; padding: 50px; }
+.about-container { max-width: 800px; text-align: center; background: rgba(0,0,0,0.5); padding: 40px; border-radius: 10px; }
+.about-text p { font-size: 16px; line-height: 1.8; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/* Overview Section */
+.overview-section { padding: 100px 50px; }
+.overview-container { display: flex; align-items: center; max-width: 1200px; margin: 0 auto; gap: 50px; }
+.image-column, .stats-column { flex: 1; }
+.stats-column h3 { font-size: 16px; font-weight: normal; margin-bottom: 5px; }
+.stats-column h2 { font-size: 32px; margin-bottom: 30px; letter-spacing: 2px; }
+.stat-row { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.2); font-size: 14px; font-weight: bold; }
+.stat-label { color: #fff; }
+.stat-value { text-align: right; }
+.stat-sub { color: #888; margin-left: 5px; }
+
+/* Performance Section */
+.performance-section { height: 100vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: flex-end; padding: 50px; }
+.performance-overlay { position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%); z-index: 1; }
+.performance-container { position: relative; z-index: 2; max-width: 600px; }
+.performance-text h3 { font-size: 25px; font-weight: normal; }
+.performance-text h2 { font-size: 40px; margin-bottom: 20px; }
+.performance-text p { font-size: 16px; line-height: 1.6; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/* Video Section */
+.video-section { height: 80vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; }
+.video-link { text-decoration: none; color: #fff; display: block; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); transition: background 0.3s ease; }
+.video-link:hover { background: rgba(0,0,0,0.1); }
+.video-text { text-align: center; }
+.video-text h3 { font-size: 16px; letter-spacing: 2px; margin-bottom: 10px; font-weight: normal; }
+.video-text h2 { font-size: 50px; line-height: 1.1; }
+
+/* Bottom Hero */
+.bottom-hero { height: 60vh; background-size: cover; background-position: center; }
+
+/* Buttons */
+.button { display: inline-block; padding: 15px 40px; border: 2px solid #fff; background: transparent; color: #fff; text-decoration: none; font-size: 14px; font-weight: bold; text-transform: uppercase; transition: all 0.3s ease; cursor: pointer; text-align: center; }
+.button:hover { background: #fff; color: #000; }
+
+/* Site Footer */
+.site-footer { padding: 60px 40px 20px; background: #000; }
+.footer-buttons { display: flex; flex-direction: column; align-items: center; margin-bottom: 50px; gap: 20px; }
+.footer-title { font-size: 20px; letter-spacing: 2px; }
+.btn-group { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.footer-bottom { display: flex; justify-content: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; }
+.footer-nav { display: flex; list-style: none; gap: 30px; flex-wrap: wrap; justify-content: center; }
+.footer-nav li, .footer-nav a { color: #888; font-size: 11px; text-decoration: none; text-transform: uppercase; font-weight: bold; }
+.footer-nav a:hover { color: #fff; }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100vh;
+        background-color: #000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+    .main-nav.active { display: flex; }
+    .main-nav ul { flex-direction: column; align-items: center; gap: 30px; }
+    .main-nav a { font-size: 18px; }
+    .hamburger { z-index: 101; position: relative; }
+    
+    .navbar { padding: 20px 30px; }
+    .overview-container { flex-direction: column; }
+    .performance-overlay { background: rgba(0,0,0,0.6); }
+    .performance-section { justify-content: center; }
+    .performance-container { text-align: center; }
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 50px; }
+    .hero-subtitle { font-size: 14px; }
+    .about-section, .overview-section, .performance-section { padding: 50px 20px; }
+    .stat-row { flex-direction: row; }
+    .video-text h2 { font-size: 36px; }
+}
