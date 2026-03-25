@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.bar{
+    height: 100px;
+    width: 1920px;
+    background: #00000010;
+    position: fixed;
+    margin-top: -1000px;
+    
+}
+.logo{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 12px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+nav ul  a{
+ list-style: none;
+ color: rgb(255, 255, 255);
+    font-stretch: expanded;
+    text-decoration: none;
+}
+nav ul  a:hover { 
+    list-style: none;
+    color: rgb(97, 96, 96);
+    
+       
+       text-decoration: none;
+   } 
+
+.shop a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+} 
+
+.fa-solid{
+    margin-left: 17px;
+    
+} 
+nav2{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: -20px;
+    margin-left: 1730px;
+}
+nav2 ul1 li2{
+    display: inline;
+    list-style: none;
+    margin: 10px 12px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+.ty{
+    color: rgb(255, 253, 253);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+  margin-top: -890px;
+}
+                .r{
+                    
+                    margin-top: 410PX;
+                    font-size: 24px;
+                    margin-left: 330px;
+                    width: 250px;
+                    
+                }
+                .s{
+                    
+                    width: 400px;
+                    font-size: 44px;
+                    margin-left: 330px;
+                }
+                .t{
+            
+                    margin-left: 0px;
+                    margin-bottom: -9px;
+                    font-size: 12px;
+                    /* border: 2px solid rgb(255, 255, 255); */
+                    width: 120px;
+                    color: rgb(250, 250, 250);
+                    height: 37px;
+                    padding-left: 12px ; 
+                    padding-top: 13px;
+                    padding-bottom: 0px;
+                } 
+
+.button{
+    margin-left: 330px;
+    width: 161px;
+    height: 55px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.button:hover{
+    margin-left: 330px;
+    width: 161px;
+    height: 55px;
+   
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.185);
+    border: 2px solid rgb(255, 255, 255);
+}
+.t:hover{
+            
+    margin-left: 0px;
+    margin-bottom: -9px;
+    font-size: 14px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 120px;
+    transition: 0.1s;
+    
+    color: rgb(5, 5, 5);
+    height: 37px;
+    padding-left: 12px ; 
+    padding-top: 13px;
+    padding-bottom: 0px;
+} 
+
+.learn{
+    text-decoration: none;
+
+    
+}
+.DRAGON{
+    color: rgb(255, 253, 253);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+  margin-top: -600px;
+}
+.D1{
+    margin-top: 230PX;
+    font-size: 24px;
+    margin-left: 330px;
+    width: 250px;
+    font-size: 20PX;
+    
+}
+.D2{
+    width: 500px;
+    font-size: 40px;
+    margin-left: 330px;
+}
+.D3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+    margin-top: -22px;
+    color: white;
+    width: 500px;
+    font-size: 40px;
+    margin-left: 330px;
+    margin-bottom: -10px;
+}
+.h{
+    margin-top: 20px;
+}
+.b{
+    background-size: cover;
+    width: 1900px;
+}
+.u{
+    background-size: cover;
+    width: 1900px;
+    height: 20px;
+}
+.starship{
+    margin-top: 180px;
+}
+.star{
+    margin-top: -290PX;
+}
+.lastbar{
+    height: 25px;
+    width: 1900px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 165px;
+}
+.lb{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.473);
+    margin-left: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+.arjun{
+    font-size: 12px;
+    margin-left: 800px;
+}

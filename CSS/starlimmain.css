@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #000000;
+}
+.bar{
+    height: 100px;
+    width: 1920px;
+    background: #00000000;
+    position: fixed;
+    margin-top: -150px;
+    
+}
+.logo{
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 330px;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: -20px;
+    margin-left: 0px;
+   
+}
+nav ul li{
+    align-items: center;
+    display: inline;
+    list-style: none;
+    margin: 10px 12px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+nav ul  a{
+ list-style: none;
+ color: rgb(255, 255, 255);
+    font-stretch: expanded;
+    text-decoration: none;
+}
+.shop a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+} 
+
+.fa-solid{
+    margin-left: 17px;
+    
+} 
+nav2{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: -20px;
+    margin-left: 1730px;
+}
+nav2 ul1 li2{
+    display: inline;
+    list-style: none;
+    margin: 10px 12px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+.secondp{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.type{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+.date{
+    color: rgb(94, 92, 92);
+    font-size: 16px;
+}
+.mission{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.abtmission{
+    color: rgb(212, 209, 209); 
+    font-size: 14px; 
+    margin-top: 20px;
+}
+.abtmission1{
+    color: rgb(212, 209, 209); 
+    font-size: 14px; 
+    margin-top: -70px;
+    margin-left: 650px;
+}
+navaa{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    color: rgb(247, 250, 249);
+    margin-left: 700px;
+    text-decoration: none;
+    width: 400px;
+    margin-top: 100px;
+    
+}
+navaa ul li{
+    align-items: center;
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px 12px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+}
+navaa ul a{
+ list-style: none;
+ color: rgb(255, 255, 255);
+    font-stretch: expanded;
+    text-decoration: none;
+}
+.lastline{
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,'bold';
+
+}
+.lastb{
+    height: 80px;
+    width: 1820px;
+    background: #000000;
+}
